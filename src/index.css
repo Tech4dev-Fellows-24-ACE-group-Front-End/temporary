@@ -69,6 +69,7 @@ button:focus-visible {
   height: 35px;
   width: 300px;
   font-size: 18px;
+  outline: none;
 }
 
 .input-box::placeholder {
@@ -93,11 +94,12 @@ button:focus-visible {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  background: gold;
 }
+
 .cards-container{
-  padding-top: 40px;
-  gap: 40px;
+  /* max-width: 1200px; */
+  padding-top: 10px 0px;
+  gap: 20px;
   height: 600px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -114,12 +116,24 @@ button:focus-visible {
     cursor: pointer;
     transition: border-color 0.25s;
 }
+.inner-content{
+  padding: 10px;
+}
+.title{
+  font-size: 1.5rem;
+  line-height: 1.1;
 
+}
+.description{
+  font-size: 1.2em;
+  line-height: 1;
+}
 
 @media screen and (max-width:480px) {
   .main-container {
     width: 50%;
     padding: 30px 10%;
+    margin-bottom: 30px;
   }
 
   .search-menu {
@@ -161,6 +175,35 @@ button:focus-visible {
 
   .input-box::placeholder {
     font-size: 0.7rem;
+  }
+
+  .cards-content{
+    width: 250px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards-container{
+    max-width: 400px;
+    padding-top: 10px 0px;
+    gap: 20px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container{
+    width: 250px;
+  }
+
+  .title{
+    font-size: 20px;
+    width: 200px;
+  }
+
+  .description{
+    font-size: 14px;
   }
 }
 

@@ -2,6 +2,8 @@ import './App.css'
 import Button from './components/Button'
 import DictionaryCard from './components/DictionaryCard';
 import InputBox from './components/InputBox'
+import abbrv from '../src/components/data'
+
 
 function App() {
 
@@ -19,9 +21,13 @@ function App() {
         </div>
         <div className="cards-content">
           <div className="cards-container">
-            <DictionaryCard />
-            <DictionaryCard />
-            <DictionaryCard />
+            {abbrv.map((item) => (
+            <DictionaryCard 
+            title={item.title}
+            desc={item.description}
+              />
+
+            ))}
           </div>
         </div>
       </div>
