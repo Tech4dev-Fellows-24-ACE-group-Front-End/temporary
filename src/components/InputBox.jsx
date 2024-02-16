@@ -1,9 +1,9 @@
 import React from 'react'
 
-const InputBox = () => {
+const InputBox = ({ onSearchChange }) => {
   return (
-    <div>
-      <input className='input-box' type="text" placeholder='Enter any word' />
+    <div className='input-box' >
+      <input type="text" placeholder='Enter any word' onChange={(e) => onSearchChange(e.target.value)} />
     </div>
   )
 }

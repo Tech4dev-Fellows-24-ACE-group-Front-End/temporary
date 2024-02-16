@@ -36,7 +36,7 @@ const data = [
     "title": "Gold & Silver Chain Bracelet",
     "price": 695,
     "description": "From our Legends Collection.",
-    "category": "jewelery",
+    "categorAy": "jewelery",
     "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
     },
     {
