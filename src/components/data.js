@@ -1,51 +1,33 @@
 const data = [
     {
     "id": 1,
-    "title": "Fjallraven - Foldsack",
-    "price": 109.95,
-    "description": "Your perfect pack for everyday use ",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    "title": "IKR",
+    "description": "I know, right"
     },
     {
     "id": 2,
-    "title": "Slim Fit T-Shirts ",
-    "price": 22.3,
-    "description": "Slim-fitting style, contrast raglan long sleeve,",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+    "title": "LOL",
+    "description": "Laugh out loud"
     },
     {
     "id": 3,
-    "title": "Mens Cotton Jacket",
-    "price": 55.99,
-    "description": "great outerwear jackets for Spring",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+    "title": "LMAO",
+    "description": "Laughing my ass out"
     },
     {
     "id": 4,
-    "title": "Mens Casual Slim Fit",
-    "price": 15.99,
-    "description": "The color could be slightly different ",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+    "title": "SMH",
+    "description": "Shaking my head"
     },
     {
     "id": 5,
-    "title": "Gold & Silver Chain Bracelet",
-    "price": 695,
-    "description": "From our Legends Collection.",
-    "categorAy": "jewelery",
-    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+    "title": "MGL",
+    "description": "More good life"
     },
     {
     "id": 6,
-    "title": "Gold & Silver Chain Bracelet",
-    "price": 695,
-    "description": "From our Legends Collection.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+    "title": "IDK",
+    "description": "I dont know"
     }
 ]
 
