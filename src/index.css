@@ -30,8 +30,8 @@ body {
 }
 
 .main-container {
-  max-width: 1440px;
-  overflow-x: hidden;
+  max-width: 80%;
+  
   height: 100vh;
 }
 
